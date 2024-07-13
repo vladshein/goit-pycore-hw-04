@@ -36,8 +36,6 @@ def total_salary(path):
     #get number of salary units in list and total 
     number = len(salary_list)
     total_sum = sum(salary_list)
-
-    #calculate average salary    
     avarege_salary = total_sum / number
 
     return total_sum, avarege_salary  
