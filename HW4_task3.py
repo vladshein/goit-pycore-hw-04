@@ -14,6 +14,8 @@ def print_directory(dir_path, level = 0):
         else:
             print(" " * level * 4 + Fore.GREEN + str(item))
     
+    Style.RESET_ALL
+
 #main script function
 def main():
     #check the amount of provided arguments
@@ -29,7 +31,7 @@ def main():
         os._exit(-1)
 
     print_directory(directory_path) 
-    print(Style.RESET_ALL)
+    
 
 #check if script called from terminal or imported to other module
 if __name__ == "__main__":
