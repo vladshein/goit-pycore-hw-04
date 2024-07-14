@@ -1,7 +1,5 @@
 #HW4 task4
 import os
-import sys
-import re
 from colorama import Fore, Back, Style
 
 #handler funcions
