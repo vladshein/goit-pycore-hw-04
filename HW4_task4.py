@@ -40,8 +40,7 @@ def show_all(contacts):
         return "Contacts are empty"
     for key in contacts:
         print(f"Name: {key.capitalize()}, phone: {contacts[key]}")
-        return "End of all command"
-
+    return "End of show all command"
 #main logic
 def main():
     print("Welcome to the assistant bot")
